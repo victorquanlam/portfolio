@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://codyb.co",
   "description": "Portfolio site for Victor Lam",
-  "repository": "https://github.com/CodyJasonBennett/portfolio.git",
+  "repository": "https://github.com/victorquanlam/portfolio",
   "author": "Victor Lam",
   "license": "MIT",
   "private": true,
@@ -44,9 +44,8 @@
     "three": "^0.131.3"
   },
   "scripts": {
-    "start": "set PORT=80 && craco start",
+    "start": "craco start",
     "build": "craco build",
-    "build-storybook": "build-storybook -o build-storybook",
     "test": "craco test",
     "storybook": "start-storybook -p 9009 -s public",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
