@@ -7,6 +7,10 @@
   "author": "Victor Lam",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.4",
     "@craco/craco": "^6.2.0",
