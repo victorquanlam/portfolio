@@ -14,12 +14,6 @@ Once it's done start up a local server with:
 yarn start
 ```
 
-To view the components and storybook:
-
-```bash
-yarn storybook
-```
-
 To run tests:
 
 ```bash
