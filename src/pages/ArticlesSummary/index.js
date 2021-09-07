@@ -92,7 +92,7 @@ const ArticlesSummary = ({status}) => {
   const buttonText = "More Articles"; 
 
   return (
-    <div>
+    <div className="articles">
         <Section className="articles__content" showDelay={800}
                 show={isVisible(status)}>
         <div className="articles__column">
