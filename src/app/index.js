@@ -75,7 +75,7 @@ const AppRoutes = () => {
                     <Route exact path="/" component={Home} />
                     <Route path="/projects/device-models" component={ProjectDM} />
                     <Route path="/projects/devtech-tools" component={ProjectDTT} />
-                    <Route path="/uses" component={Uses} />
+                    <Route path="/skills" component={Uses} />
                     <Route path="/articles" component={Articles} />
                     <Route component={Page404} />
                   </Switch>

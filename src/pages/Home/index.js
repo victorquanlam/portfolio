@@ -161,7 +161,7 @@ const Home = () => {
         index={2}
         visible={visibleSections.includes(projectOne.current)}
         id="about"
-        text="Latest Project"
+        text="Latest Projects"
       />
       <ProjectSummary
         id="project-1"

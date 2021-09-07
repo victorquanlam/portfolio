@@ -98,7 +98,7 @@ const ProjectDM = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>The Problem</ProjectSectionHeading>
             <ProjectSectionText>
-              After complimenting <Link href="/uses">my arsenal</Link> with Figma as my
+              After complimenting <Link href="/skills">my arsenal</Link> with Figma as my
               weapon of choice for UI design in 2019, I noticed that working with 3D and
               interactive content was not possible within Figma, especially when using
               grid systems.
