@@ -28,8 +28,8 @@ const ProfileText = ({ status, titleId }) => (
       size="l"
     >
       I'm Victor Lam. I am a fullstack developer with a focus on .Net and Javascript. My projects include Angular, Vue and React
-      development. If you are interested in the tools and software I use, check out my{' '}
-      <Link href="/uses">uses page</Link>.
+      development. If you are interested in the technical skills that I have, check out my{' '}
+      <Link href="/uses">skills page</Link>.
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
