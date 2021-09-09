@@ -9,6 +9,7 @@ import Profile from './Profile';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
 import deviceModelsTexture from 'assets/device-models-phone.jpg';
+import deviceModelsTexture2 from 'assets/habitgame.PNG';
 import deviceModelsTextureLarge from 'assets/device-models-phone-large.jpg';
 import deviceModelsTexturePlaceholder from 'assets/device-models-phone-placeholder.jpg';
 import dttTexture from 'assets/dtt.jpg';
@@ -170,13 +171,13 @@ const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         header={true}
-        title="Device Models"
-        description="Design and development of a Figma plugin to create mockups with 3D device models."
+        title="Habit Game"
+        description="Free habit and productivity app that treats your real life like a game. Inspired by Habitat"
         buttonText="View Project"
-        buttonLink="404"
+        buttonLink="https://habitgame.netlify.app/"
         model={{
           type: 'phone',
-          alt: "Device Model's default image",
+          alt: "Habitme Like's default image",
           textures: [
             {
               src: deviceModelsTexture,
@@ -184,9 +185,9 @@ const Home = () => {
               placeholder: deviceModelsTexturePlaceholder,
             },
             {
-              src: deviceModelsTexture,
-              srcSet: `${deviceModelsTexture} 254w, ${deviceModelsTextureLarge} 508w`,
-              placeholder: deviceModelsTexturePlaceholder,
+              src: deviceModelsTexture2,
+              srcSet: `${deviceModelsTexture2} 254w, ${deviceModelsTexture2} 508w`,
+              placeholder: deviceModelsTexture2,
             },
           ],
         }}
@@ -196,13 +197,13 @@ const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="DevTech Tools"
-        description="Creating the ultimate productivity platform."
+        title="Movie Steaming"
+        description="A movie streaming site. Inspired by Disney Plus"
         buttonText="View Project"
-        buttonLink="404"
+        buttonLink="https://not-disney.netlify.app/"
         model={{
           type: 'laptop',
-          alt: 'DevTech Tools Landing Page',
+          alt: 'Movie Steaming',
           textures: [
             {
               src: dttTexture,

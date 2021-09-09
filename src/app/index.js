@@ -15,8 +15,6 @@ import './reset.css';
 import './index.css';
 
 const Home = lazy(() => import('pages/Home'));
-const ProjectDM = lazy(() => import('pages/DeviceModels'));
-const ProjectDTT = lazy(() => import('pages/DevTechTools'));
 const Articles = lazy(() => import('pages/Articles'));
 const Uses = lazy(() => import('pages/Uses'));
 const Page404 = lazy(() => import('pages/404'));
@@ -55,7 +53,7 @@ const AppRoutes = () => {
   return (
     <Fragment>
       <Helmet>
-        <link rel="canonical" href={`https://codyb.co${pathname}`} />
+        <link rel="canonical" href={`http://victorquanlam.com/${pathname}`} />
       </Helmet>
       <VisuallyHidden showOnFocus as="a" className="skip-to-main" href="#MainContent">
         Skip to main content
@@ -73,8 +71,6 @@ const AppRoutes = () => {
                 <Suspense fallback={<Fragment />}>
                   <Switch location={location}>
                     <Route exact path="/" component={Home} />
-                    <Route path="/projects/device-models" component={ProjectDM} />
-                    <Route path="/projects/devtech-tools" component={ProjectDTT} />
                     <Route path="/skills" component={Uses} />
                     <Route path="/articles" component={Articles} />
                     <Route component={Page404} />
